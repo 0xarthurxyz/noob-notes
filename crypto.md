@@ -63,3 +63,8 @@ Newsletters:
 
 [EIP-4368](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4361.md): Sign-In with Ethereum
 
+
+## Generalist tldrs and reading lists
+
+- [JumpCrypto / crypto-reading-list](https://github.com/JumpCrypto/crypto-reading-list)
+- Ethereum whitepaper
