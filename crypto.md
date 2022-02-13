@@ -45,7 +45,9 @@ Newsletters:
 - DeFi Llama: for DeFi metrics like TVl
 
 
-## Interesting improvement proposals (EIPs, CIPs, ERCs, etc...)
+## Reading
+
+### Improvement proposals (EIPs, CIPs, ERCs, etc...)
 
 [EIP-20](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md): "ERC20" Token Standard
 
