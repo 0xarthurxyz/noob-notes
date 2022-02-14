@@ -80,7 +80,7 @@ Newsletters:
 
 ### Feb 13, 2022
 
-{{< tweet user="0xArthurxyz" id="1492910975011463170" >}}
+{{< tweet 1492910975011463170 >}}
 
 The following is a brilliant though piece (IMO) by [Ian Bogost](https://en.wikipedia.org/wiki/Ian_Bogost) (media/design/technology guru) in the Atlantic: “[The Internet Is Just Investment Banking Now](https://www.theatlantic.com/technology/archive/2022/02/future-internet-blockchain-investment-banking/621480/)”
 
@@ -91,7 +91,6 @@ here *securitisation* is understood (broadly) as the practice of commercialising
 learning from the history of financial securitisation, we might expect things to only get weirder from here :smile:
 - “Web3 as securitisation” is an interesting mental model, because it helps separate the value of the underlying things from the value of their proxies.
 
+{{< tweet 1492842801360519168 >}}
 
-{{< tweet user="0xArthurxyz" id="1492842801360519168" >}}
-
-{{< tweet user="0xArthurxyz" id="1492842802845212673" >}}
+{{< tweet 1492842802845212673 >}}
