@@ -70,3 +70,28 @@ Newsletters:
 
 - [JumpCrypto / crypto-reading-list](https://github.com/JumpCrypto/crypto-reading-list)
 - Ethereum whitepaper
+- 
+
+## Incomplete notes (by day)
+
+### Feb 14, 2022
+
+- by [Sunita Parbhu](https://twitter.com/sparbhu): [2022 Top 10 Resources for Learning Blockchain, Defi, NFT](https://sunita-parbhu.medium.com/2022-top-10-resources-for-learning-blockchain-defi-nft-cc016e963aad)
+
+### Feb 13, 2022
+
+{{< tweet user="0xArthurxyz" id="1492910975011463170" >}}
+
+The following is a brilliant though piece (IMO) by [Ian Bogost](https://en.wikipedia.org/wiki/Ian_Bogost) (media/design/technology guru) in the Atlantic: “[The Internet Is Just Investment Banking Now](https://www.theatlantic.com/technology/archive/2022/02/future-internet-blockchain-investment-banking/621480/)”
+
+tldr:
+- web3 might be the *securitisation* stage of the internet (where web1/web2 were the “marketisation” and “monetisation” stages)
+here *securitisation* is understood (broadly) as the practice of commercialising the proxies for things, rather than the things themselves (e.g. a financial proxy for oil, instead of physical oil barrels themselves)
+- importantly “securities have less to do with what they are [intrinsically], than what they might be worth”
+learning from the history of financial securitisation, we might expect things to only get weirder from here :smile:
+- “Web3 as securitisation” is an interesting mental model, because it helps separate the value of the underlying things from the value of their proxies.
+
+
+{{< tweet user="0xArthurxyz" id="1492842801360519168" >}}
+
+{{< tweet user="0xArthurxyz" id="1492842802845212673" >}}
