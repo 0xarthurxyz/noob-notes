@@ -65,3 +65,63 @@ ignoreFiles:
 
 
 Source: [gohugo.io  - Ignore Content and Data Files when Rendering](https://gohugo.io/getting-started/configuration/#ignore-content-and-data-files-when-rendering)
+
+### Modify syntax highlighting
+
+Instructions copied from [PaperMod/FAQs/Using Hugo’s Syntax highlighter “chroma”](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-faq/#using-hugos-syntax-highlighter-chroma).
+
+1. Disable Highlight.js in site `config.yml`
+
+    ```yml
+    params:
+        assets:
+            disableHLJS: true
+    ```
+
+2. Set hugo's markdown styling in site `config.yml`
+
+    Find styles here: [Chrome Style Gallery](https://xyproto.github.io/splash/docs/all.html)
+
+    ```yml
+    markup:
+        highlight:
+            # anchorLineNos: true
+            codeFences: true
+            guessSyntax: true
+            lineNos: true
+            # noClasses: false
+            style: monokai
+    ```
+
+3. If you want `lineNos: true`, the background won't be proper.
+   This will only work with `noClasses: false` or `pygmentsUseClasses: true`.
+   Read [Generate Syntax Highlighter CSS](https://gohugo.io/content-management/syntax-highlighting/#generate-syntax-highlighter-css)
+
+    Add the following to `assets/css/extended/custom.css`
+
+    ```css
+    .chroma {
+        background-color: unset;
+    }
+    ```
+
+    More Info : [Configure Markup - Highlight](https://gohugo.io/getting-started/configuration-markup#highlight)
+
+"Official" config from [Hugo docs](https://gohugo.io/getting-started/configuration-markup#highlight) (for comparison):
+
+```yaml
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: monokai
+    tabWidth: 4
+```
